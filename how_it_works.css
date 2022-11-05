@@ -1,6 +1,6 @@
 .grid-container{
     display: grid;
-    background-color: rgb(103, 110, 219);
+   
     grid-template-rows: 2fr 2fr;
     grid-template-columns:2fr 2fr; 
     grid-template-areas:
@@ -11,18 +11,23 @@
     border: 2px solid;
     grid-area: header;
     text-align: center;
-    height:30px;
+
+    height:fit-content; 
+
 }
 .who-we-are{
     border: 2px solid;
     grid-area: who-we-are;
     text-align:center;
+   
 }
 .who-we-are-icons{
     border: 2px solid;
     grid-area: who-we-are-icons;
     text-align:center;
+  
 }
+
 .how-it-works{
     text-align: center;
     margin-left: 30%;
