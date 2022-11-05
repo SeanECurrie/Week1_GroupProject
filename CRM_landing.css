@@ -1,0 +1,60 @@
+.grid-container{
+    display: grid;
+    background-color: rgb(103, 110, 219);
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns:2fr 2fr; 
+    grid-template-areas:
+        "header header"
+        "who-we-are who-we-are-icons";
+}
+.header{
+    border: 2px solid;
+    grid-area: header;
+    text-align: center;
+    height:60px;
+    
+}
+.who-we-are{
+    border: 2px solid;
+    grid-area: who-we-are;
+    text-align:center;
+}
+.who-we-are-icons{
+    border: 2px solid;
+    grid-area: who-we-are-icons;
+    text-align:center;
+}
+.how-it-works{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.lorem-container{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.collect-useful-info-image{
+    text-align: center;
+}
+.get-paid-sooner-image{
+    text-align: center;
+}
+.start-to-explore{
+    text-align: center;
+    background-color:rgb(103, 110, 219);
+    height:300px;
+}
+.accepting-payments-with-ease{
+    text-align: center;
+}
+.solutions{
+    background-color: rgb(103, 110, 219);
+    height: 400px;
+    text-align: center;
+}
+.footer{
+    background-color:rgb(103, 110, 219);
+    text-align: center;
+    height: 7em;
+}
