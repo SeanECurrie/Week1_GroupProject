@@ -1,37 +1,29 @@
 .grid-container{
     display: grid;
-   
-    grid-template-rows: 2fr 2fr;
     grid-template-columns:2fr 2fr; 
     grid-template-areas:
-        "header header"
         "who-we-are who-we-are-icons";
+    margin-left: 100px;
+    margin-right: 100px;
 }
-.header{
-    border: 2px solid;
-    grid-area: header;
-    text-align: center;
-
-    height:fit-content; 
-
+.container-divider{
+    margin-left: 20%;
+    margin-right:20%;
 }
 .who-we-are{
-    border: 2px solid;
     grid-area: who-we-are;
     text-align:center;
-   
 }
 .who-we-are-icons{
-    border: 2px solid;
+    display: flex;
     grid-area: who-we-are-icons;
-    text-align:center;
-  
+    justify-content: center;
 }
-
 .how-it-works{
-    text-align: center;
     margin-left: 30%;
-    margin-right: 30%;
+    margin-right:30%;
+    text-align: center;
+    padding-bottom: 30px;
 }
 .lorem-container{
     text-align: center;
@@ -40,9 +32,17 @@
 }
 .collect-useful-info-image{
     text-align: center;
+    padding-bottom: 30px;
 }
 .get-paid-sooner-image{
     text-align: center;
+    padding-bottom: 30px;
+}
+.lorem-container{
+    padding-bottom: 30px;
+}
+a:hover{
+    border: 2px solid cornflowerblue;
 }
 .footer{
     background-color:rgb(103, 110, 219);
