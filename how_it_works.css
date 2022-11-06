@@ -17,8 +17,11 @@
 .who-we-are-icons{
     display: flex;
     grid-area: who-we-are-icons;
-    justify-content: center;
+    text-align:center;
+  
 }
+
+
 .how-it-works{
     margin-left: 30%;
     margin-right:30%;
