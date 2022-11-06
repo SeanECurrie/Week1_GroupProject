@@ -12,11 +12,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
+    <!--<Duncan Anglin) This navbar was desinged using bootstrap.--> 
       <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container-fluid">
           <a class="navbar-brand ms-4" href="#"
-            ><img
-              class="nav-logo w-25"
+            >
+            <!-- (DA)This image I had found online and made it width 50% of what it was-->
+            <img
+              class="nav-logo w-50 img-responsive center-block"
               src="https://th.bing.com/th/id/OIP.Lvng8S-HOE8RfF_w3mWn3gAAAA?pid=ImgDet&rs=1"
           /></a>
           <button
@@ -31,6 +34,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
+            <!--In order to make sure that the margin were good enough for the website but did not over exaggerate the navbar I used the bootstrap margin class mx to control the side margins-->
             <ul class="navbar-nav d-flex justify-content-center">
               <li class="nav-item">
                 <a
@@ -68,6 +72,8 @@
     <div class="landing">
       <!-- Grid container starts -->
       <div class="grid-container">
+        <!--(DA)The icons used were done in font awesome and used the span function to help format the paragraph, adding bolder and lighter texts and breaks. -->
+        <!--Each button was given a container shape and under shadows to give it more of a designed feel with the top three buttons being ellipse pill ellipse and swapping for the next row-->
         <div class="who-we-are">
             <p class="fs-1 lh-sm fw-bold"> Focus on <br> Your Business <br> <span class="fs-2 fw-normal">Let Us Handle Everything Else</span> <br> <span class="fs-5 fw-bold lh-1 text-muted">Subscription Billing, powered with revenue retention tools and a <br>seamless customer experience - without the technical hurdles.</span></p>
             <button class="btn  btn-primary m-2  btn-lg" type="button">Sign Up Free  >></button>
@@ -76,10 +82,13 @@
             <p class="m-2"> Free 14 day trial   <i class="fa fa-circle " style="color:blue"></i>   Manage Customers in Minutes   <i class="fa fa-circle " style="color:blue"></i>   Cancel at Anytime</p>
         </div>
         <div class="who-we-are-icons"><div class="d-flex justify-content-center flex-column">
+
             <div class="d-flex justify-content-center">
+                <!--(DA)The buttons within this section  have font awesome icons but when clicked give us of tiny off canvas containers describing what the button is saying they currently have lorem in the at the current moment-->
             <button class="btn btn-primary btn-lg rounded-circle m-3 shadow-lg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"><i class="fa fa-bars"></i>  Client Dashboard</button>
             
             <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                <!--this is the offcanvas containers that I had described the btn-close label allows us to close the offcanvas and return to screen-->
               <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="offcanvasBottomLabel">Client Dashboard</h5>
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -117,7 +126,7 @@
                 
                 <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
                   <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Client Dashboard</h5>
+                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Project Analytics</h5>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                   </div>
                   <div class="offcanvas-body small">
@@ -128,7 +137,7 @@
                 
                 <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
                   <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Employee Profiles</h5>
+                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Project Comment</h5>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                   </div>
                   <div class="offcanvas-body small">
@@ -139,7 +148,7 @@
                 
                 <div class="offcanvas offcanvas-bottom " tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
                   <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Client Calenders</h5>
+                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Project Folders</h5>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                   </div>
                   <div class="offcanvas-body small">
@@ -154,7 +163,7 @@
                 
                 <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
                   <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Client Dashboard</h5>
+                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Time Tracking</h5>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                   </div>
                   <div class="offcanvas-body small">
@@ -165,7 +174,7 @@
                 
                 <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
                   <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Employee Profiles</h5>
+                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Program Emails</h5>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                   </div>
                   <div class="offcanvas-body small">
@@ -176,7 +185,7 @@
                 
                 <div class="offcanvas offcanvas-bottom " tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
                   <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Client Calenders</h5>
+                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Project Alerts</h5>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                   </div>
                   <div class="offcanvas-body small">
