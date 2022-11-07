@@ -1,26 +1,17 @@
 .grid-container{
     display: grid;
-    background-color: rgb(103, 110, 219);
-    grid-template-rows: 2fr 2fr;
     grid-template-columns:2fr 2fr; 
     grid-template-areas:
-        "header header"
         "who-we-are who-we-are-icons";
-}
-.header{
-    border: 2px solid;
-    grid-area: header;
-    text-align: center;
-    height:60px;
-    
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .who-we-are{
-    border: 2px solid;
     grid-area: who-we-are;
     text-align:center;
 }
 .who-we-are-icons{
-    border: 2px solid;
+    display: flex;
     grid-area: who-we-are-icons;
     text-align:center;
 }
@@ -41,18 +32,59 @@
     text-align: center;
 }
 .start-to-explore{
+    margin-top: 50px;
     text-align: center;
-    background-color:rgb(103, 110, 219);
-    height:300px;
+    height: 250px;
+}
+.explore-images{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 7%;
+    margin:7%;
+    margin-top: 50px;
 }
 .accepting-payments-with-ease{
     text-align: center;
 }
 .solutions{
-    background-color: rgb(103, 110, 219);
-    height: 400px;
     text-align: center;
+    padding:20px;
+    padding-top:50px;
 }
+.solutions-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    /* background-color: rgb(103, 110, 219); */
+    height:fit-content;
+    text-align: center;
+    padding-bottom: 25px;
+    margin-left: 25%;
+    margin-right: 25%
+}
+.email-dashboards{
+    padding:0px 20px 60px 20px;
+}
+.task-management{
+    padding:0px 20px 60px 20px;
+}
+.analytics{
+    padding:0px 20px 60px 20px;
+}
+.project-calendars{
+    padding:0px 20px 60px 20px;
+}
+.learn-more{
+    background-color: white;
+    padding:0px 20px 0px 20px;
+}
+.learn-more:hover{
+    background-color: cornflowerblue;
+}
+a:hover{
+    border: 2px solid cornflowerblue;
+}
+
 .footer-container {
     background-color: rgb(103, 110, 219)
 }
@@ -83,6 +115,10 @@
     font-size: 20px;
 }
 #container {
+
+.footer{
+    background-color:rgb(105, 170, 219);
+
     text-align: center;
 }
 #footnote-ending {
