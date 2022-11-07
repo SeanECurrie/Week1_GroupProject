@@ -4,6 +4,11 @@
 
 }
 
+@media (max-width: 800px) {
+    .left, .container {
+    flex-direction: column;
+    }
+}
 .container2{
     margin-top:20%;
     margin-right:auto;
