@@ -9,3 +9,4 @@ Group Project!
 Sean : SignUP, SignIN pages. Some general styling on all the pages with fonts and colors.
 
 Tapiwa: I created the css grid layouts, flex box and general containers for the 'how it works' and 'CRM landing' pages. Added the hover effects and linked the pages on the hyper links. Also added the start to explore Double tap, Email Dashboards, task management, Analytics, and project calendar contents in their appropriate containers.
+
